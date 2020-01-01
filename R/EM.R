@@ -5,7 +5,7 @@
 #' @param sigma1 initial sigma1
 #' @param sigma2 initial sigma2
 #' @param prop initial proportion
-#' @return estimates of 
+#' @return estimates 
 #' @import mixtools
 #' @examples
 #' \dontrun{

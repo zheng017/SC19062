@@ -45,7 +45,7 @@ gg <- cos(pi*xt/6)
 ## (viewed as probability densities) are at +/- 0.25*ventana
 ## The smoothing bandwidth = 0.25*ventana/0.675
 ventana=2.5
-salida=PLMEV.rob.2(y,vv,xt,palabra="mcd",cw=0.975,k=0.55,ventana)
+salida=PLMEV(y,vv,xt,palabra="mcd",cw=0.975,k=0.55,ventana)
 salida$beta.rob
 plot(xt,salida$ghat,xlab='T',ylab='g(t)')
 points(xt,gg,col="red")

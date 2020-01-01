@@ -18,7 +18,7 @@ EM(x, mu, sigma1, sigma2, prop)
 \item{prop}{initial proportion}
 }
 \value{
-estimates of
+estimates
 }
 \description{
 A EM algorithm for Gaussian mixture models
